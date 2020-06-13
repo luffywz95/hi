@@ -1,0 +1,76 @@
+#sam #jack p{
+    color:blue;
+    font-size:20px;
+    position: absolute;
+    margin: 0 auto;
+    /*text-align: center;*/
+    left:0;
+    background:#f00;
+    /*
+    animation-name:anime;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    */
+    animation: anime 5s linear infinite reverse;
+}
+@keyframes anime{
+    from{
+        left:0px;
+    }
+    to{
+        left:500px;
+    }
+    0%{
+        background: #fff;
+    }
+    50%{
+        background: #000;
+    }
+    100%{
+        background: #f00;
+    }
+}
+
+ul{
+    color:blue;
+    font-size:20px;
+}
+
+ol{
+    color:red;
+    font-size: 20px;
+}
+
+<!
+#sam{
+    color:red;
+    font-size:80px;
+}
+>
+
+#jack{
+    color:brown;
+}
+
+.sam2{
+    color:beige;
+    font-size:20px;
+}
+
+.mas{
+    color:blueviolet;
+    font-size:80px;
+}
+
+b{
+    display:block;
+}
+
+c{
+    color:cadetblue
+}
+c:hover{
+    color:red;
+    font-size:50px;
+}
