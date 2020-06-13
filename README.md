@@ -1,1 +1,67 @@
 # samleung.github.io
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="day1.css">
+        <title>
+            你好！
+        </title>
+    </head>
+    <body>
+        <script>
+            function alerted_u_la(){
+                var x = 10;
+                x = x + 1;
+
+                var y = 1;
+                y = x + 10;
+                y = x - 10;
+                y = x / 10;
+                y = x * 10;
+                y = x % 3;
+                alert(y);
+            }
+            
+            function combine(x, y){
+                alert(x+" "+y+".")
+            }
+            
+            //alerted_u_la();
+            <-combine("I am", "Sam");>
+        </script>
+        
+        <div id="sam">
+            <h1 style="color:red">Hi</h1>
+            <h2 id="sam">Hi</h2>
+            <h3>Hi</h3>
+            <h4>Hi</h4>
+            <h5>Hi</h5>
+            <h6>Hi</h6>
+            <div id="jack">
+                <p><b><strong style="color:red">Hi!</strong> <a href="https://www.google.com/search?q=auntie&safe=active&sxsrf=ALeKk00k5y57FckD1myZBqbHypcw3lHLKQ:1591252458301&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjum5msxefpAhVxJaYKHbDdBnwQ_AUoA3oECBQQBQ&biw=1280&bih=578"><c><i>Auntie</i></c></a>.</b>
+                    
+                <b>I am <a href="https://www.google.com/search?q=Sam&tbm=isch&ved=2ahUKEwi3vMCtxefpAhWFyosBHUq_BkwQ2-cCegQIABAA&oq=Sam&gs_lcp=CgNpbWcQAzIFCAAQsQMyBQgAELEDMgUIABCxAzICCAAyAggAMgIIADICCAAyAggAMgQIABADMgIIADoECCMQJ1CnwgRYosUEYJrIBGgAcAB4AIABU4gB3QGSAQEzmAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img&ei=7ZXYXveRAoWVr7wPyv6a4AQ&bih=578&biw=1280&safe=active" target="_blank"><i>Sam</i></a>.</b>
+                    
+                <b>Nice to meet you.</b>
+                    
+                <b>Here my <a href="https://i.guim.co.uk/img/media/6e59918dbba506a18af0ecb27feaa51b58607d76/0_0_3000_1800/master/3000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=81661f834882c0811a3b3d2536cc5a93" target="_blank">photo</a>.</b></p>
+            </div>
+            
+            <p>This is some <span>SOME CONTENT</span>.</p>
+            
+            <img src="https://i.guim.co.uk/img/media/6e59918dbba506a18af0ecb27feaa51b58607d76/0_0_3000_1800/master/3000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=81661f834882c0811a3b3d2536cc5a93" width="365">
+
+            <br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/p5qgcXYudwk?&autoplay=1&loop=1&playlist=p5qgcXYudwk" frameborder="0" allowfullscreen></iframe>
+
+            <br><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7380.17436383112!2d114.19762917141895!3d22.350336741190272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340406d9915cc683%3A0xde05c334f5f274f8!2z5oWI6Zuy5bGx!5e0!3m2!1szh-TW!2shk!4v1591255382395!5m2!1szh-TW!2shk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <ol>
+                <li>Item A</li>
+                <li>Item B</li>
+            </ol>
+        </div>
+    </body>
+</html>
